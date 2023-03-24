@@ -8,15 +8,33 @@
 ul{
     list-style-type: none;
 }
+ul li{
+    margin: 10px auto;
+}
+body{
+    background-color: green;
+    font-family: 'Ubuntu', sans-serif;
+}
+img{
+    max-width: 400px;
+}
 /*layout*/
 .container{
     width: 100%;
+
+}
+.data-container{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    color: white;
 }
 #result{
     font-size: 1.5em;
+    font-style: italic;
+    font-family: inherit;
 }
