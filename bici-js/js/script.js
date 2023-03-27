@@ -13,7 +13,7 @@ const bikeArray =[
     },
     {
         nome: 'Pincopallo',
-        peso: 0.5
+        peso: 10
     }
 ]
 const pesi = bikeArray.map((item)=>{
